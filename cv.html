@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - shatha iyad awwad</title>
+    <style>
+        /* TODO 1: Page & Font Styling */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* TODO 6: Container Shadow */
+        .cv-container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: #1e1e1e;
+            border-radius: 12px;
+            box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+            padding: 30px;
+        }
+        /* TODO 2: */Header Gradient */
+        .cv-header {
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            border-radius: 8px;
+            padding: 25px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+
+        /* TODO 2: Header Gradient */
+        .cv-header {
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            border-radius: 8px;
+            padding: 25px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        /* TODO 7: Circle profile image */
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #4caf50;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            object-fit: cover;
+        }
+
+        h1 {
+            margin: 15px 0 5px 0;
+            color: #ffffff;
+         }
+
+        .cv-header p {
+            margin: 5px 0;
+            color: #b0bec5;
+        }
+
+        section {
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            border-bottom: 2px solid #4caf50;
+            font-size: 20px;
+        }
+
+        /* TODO 3: SKills Badges */
+        .skills-list {
+            list-style: none;
+            padding: 0;
+        }
+        skills-list li {
+            display: inline-block;
+            background- #2a2a2a;
+            margin: 5px;
+            padding: 5px 15px;
+            border-radius: 20px;
+            color: #4caf50;
+        }
+
+        /* TODO 4: Style Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #16213e;
+            color: #fff;
+        }
+        tr:nth-child(even) {
+            background-color: #222;
+        }
+
+        /* TODO 5: Link Styling */
+        a:hover {
+            color: #4caf50;
+            text-decoration: underline;
+        }
+        a:hover {
+            color: #45a049;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-header">
+        <img src="profile.jpg" alt="shatha awwad profile"> 
+        <h1>Shatha Iyad Awwad</h1>
+        <p>Web Developer | Student at Al-Aqsa University</p>
+        <p>Email: <a href="mailto:ahmadxxaead@gmail.com">ahmadxxaead@gmail.com</a> 
+            | Phone: <a href="tel:+972599999999">+972 592082717</a></p>
+    </div>
+    
+    <!-- About Me -->
+     <section>
+        <h2>About Me</h2>
+        <p>Passionate web development student at Al-Aqsa focused on building modern web applications using HTML, CSS, and javascript.</p>
+    </section>
+
+    <!-- Skills -->
+    <section>
+     <h2>Skills</h2>
+     <ul class="skills-list">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Git & GitHub</li>
+        <li>Responsive Design</li>
+        <li>Problem Solving</li>
+        <li>Bootstrap</li>
+        <li>VS Code</li>
+     </ul>
+    </section>
+
+    <!-- Education -->
+    <section>
+        <h2>Education</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Year</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>B.Sc. Managment Information Systems</td>
+                    <td>Al-Aqsa University</td>
+                    <td>2023</td>
+                    <td>In Progress</td>
+                </tr>
+              </tbody>
+        </table>
+    </section>
+    <!-- Projects -->
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Portfolio Website:</strong> A Responsive personal portfolio using HTML & CSS.</li>
+            <li><strong>Calculator App:</strong> Interactive calculator built with JavaScript.</li>
+            <li><strong>Weather App:</strong> Weather information app powered by an API.</li>
+        </ul>
+    </section>
+
+    <!-- Contact -->
+     <section>
+        <h2>Contact Me</h2>
+        <p><a href="mailto:ahmadxxaead@gmail.com">Send Email</a> | <a href="#">LinkedIn</a> | <a href="https://github.com/shatha awwad" target="_blank">GitHub</a></p>
+     </section>
+
+     </div>
+
+</body>
+</html>
